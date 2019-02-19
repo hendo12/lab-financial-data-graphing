@@ -7,6 +7,12 @@
   <body>
     <h1> {{title}} </h1>
     <p>Welcome to  {{title}} </p>
+    <input type="date" id="start" value="2012-01-01">
+    <input type="date" id="end" value="2019-02-15">
+    <button type="submit" id="submitRange">Submit</button>
+    <canvas id="myChart" width="300" height="125"></canvas>
   </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
   <script src="/javascripts/financial-data.js" charset="utf-8"></script>
 </html>
